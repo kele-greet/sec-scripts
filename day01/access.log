@@ -1,0 +1,7 @@
+10.0.0.5 - - [10/Oct/2024:13:55:36 +0800] "GET /index.php HTTP/1.1" 200 5120 "-" "Mozilla/5.0"
+10.0.0.7 - - [10/Oct/2024:13:56:01 +0800] "GET /login?user=admin'%20or%20'1'='1 HTTP/1.1" 200 1024 "-" "sqlmap/1.7"
+203.0.113.9 - - [10/Oct/2024:13:57:11 +0800] "GET /../../etc/passwd HTTP/1.1" 403 162 "-" "Mozilla/5.0"
+198.51.100.2 - - [10/Oct/2024:13:58:00 +0800] "GET /admin HTTP/1.1" 403 162 "-" "Nikto/2.5.0"
+192.0.2.44 - - [10/Oct/2024:14:00:00 +0800] "GET /?file=php://filter/convert.base64-encode/resource=index HTTP/1.1" 200 4096 "-" "Mozilla/5.0"
+这是一行故意写坏的脏日志
+10.0.0.8 - - [10/Oct/2024:14:01:00 +0800] "GET /health HTTP/1.1" 200 2 "-" "kube-probe/1.25"

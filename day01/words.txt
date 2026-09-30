@@ -1,0 +1,9 @@
+admin
+login
+backup
+upload
+config
+# 这是注释，会被跳过
+
+test
+api
